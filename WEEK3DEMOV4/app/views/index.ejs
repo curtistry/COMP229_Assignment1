@@ -1,0 +1,35 @@
+<!--File Name: index.ejs-->
+<!--Student Name: Curtis Carpio-->
+<!--Student ID: 301322854-->
+<!--Date: October 4th, 2023-->
+
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+
+    <!--<img src="img/logo.png" alt="logo">-->
+
+<head>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<main class="container">
+<!--<div class="jumbotron"></div>-->
+<body>
+    <h1 class="mainTitle">Welcome to <%= title %></h1>
+    <p>Welcome to my first website! It's my first time using ExpressJS and NodeJS for this, so the code may be messy. </p>
+    <p>If you'd like to view more about me, navigate to my <a href="/about">About Page</a>.</p>
+    <br>
+    
+    <img src="/img/myPPic.jpg" alt="Photo of a sunset, taken by Curtis." style: width="720px"; height="480px">
+
+    <h5 class="mainTitle">Mission Statement</h5>
+    <p>My goal is to learn more about web development, including frontend and backend development, and other programming languages. I also plan to make better updates to this site (in terms of information and visuals) using what I've learned in my studies.</p>
+</body>
+</main>
+
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>
+
+
+
+   

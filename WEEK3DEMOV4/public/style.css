@@ -1,0 +1,43 @@
+/*File Name: style.css*/
+/*Student Name: Curtis Carpio*/
+/*Student ID: 301322854*/
+/*Date: October 4th, 2023*/
+
+body {
+	/*creating the background gradient*/
+	background: rgb(145,143,185);
+	background: linear-gradient(180deg, rgba(145,143,185,1) 0%, rgba(165,165,218,1) 48%, rgba(137,145,170,1) 100%);
+	color: #ffffff;
+	text-shadow: rgba(0, 0, 0, 0.65) 1px 1px 2px;
+	font-size: 1.35em;
+}
+.mainTitle{
+	margin-top: 15px;
+	text-align: center;
+	color: #ffffff;
+	text-shadow: rgba(0, 0, 0, 0.6) 2px 2px 5px;
+	font-size: 2em;
+}
+
+.contactForm {
+	width: 500px;
+	clear: both;
+	margin: 0 auto;
+  }
+  
+.contactForm input {
+	width: 100%;
+	clear: both;
+}
+
+.serviceList {
+	text-align:center;
+}
+
+img {
+  border-radius: 5%;
+   filter: drop-shadow(3px 3px rgba(0, 0, 0, 0.15));
+   /*center the images*/
+   display: block;
+   margin: 10px auto 20px auto;
+}

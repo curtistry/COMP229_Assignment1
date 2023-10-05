@@ -1,0 +1,50 @@
+<!--File Name: contact.ejs-->
+<!--Student Name: Curtis Carpio-->
+<!--Student ID: 301322854-->
+<!--Date: October 4th, 2023-->
+
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+
+    <!--<img src="img/logo.png" alt="logo">-->
+
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    
+<main class="container">
+<!--<div class="jumbotron"></div>-->
+<h1 class="mainTitle"><%= title %> Me</h1>
+
+<p style="text-align:center;"> You may contact me using the form below. </p>
+<form class="contactForm" action="/" method="get">
+	
+	<label for="myFName">First Name: </label> 
+	<input type="text" name="myFName" id ="myFName"></label>
+	<br>
+	<label for="myLName">Last Name: </label> 
+	<input type="text" name="myLName" id ="myLName"></label>
+	<br>
+	<label for="myEmail">E-Mail Address: </label> 
+	<input type="text" name="myEmail" id ="myEmail" size="35"></label>
+	<br>
+	<label for="myphone">Phone Number: </label> 
+	<input type="text" name="myphone" id ="myphone" maxlength="12"></label>
+	<br>
+    <br>
+	<label for="myComments">Comments: </label> 
+	<textarea rows="2" cols="30" name="myComments" id ="myComments"> </textarea>
+    <br>
+    <br>
+	<input type="submit" value="Submit"></input>
+
+</form>
+
+</main>
+
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>
+
+
+
+   
